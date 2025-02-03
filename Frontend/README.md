@@ -68,3 +68,35 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+---
+
+## Milestone 3: Project Setup for Backend
+
+In this milestone, we focused on setting up the backend of the e-commerce application. Here's what was achieved:
+
+### Backend Folder Structure
+- Created a structured hierarchy for organizing backend code:
+  - `routes/`: Contains all API routes.
+  - `controllers/`: Handles the logic for processing requests.
+  - `models/`: Defines the database schemas and models.
+  - `middlewares/`: (Future use) For adding middleware functions.
+  - `utils/`: (Future use) For utility functions and helpers.
+
+### Server Setup
+- Initialized a Node.js server using Express.
+- Configured the server to listen on port `3000`.
+- Set up basic API routes for testing the server.
+
+### Database Connection
+- Integrated MongoDB using Mongoose for efficient data storage.
+- Established a connection between the server and MongoDB.
+- Created a basic schema for products to prepare for future data storage.
+
+### Error Handling
+- Implemented basic error handling middleware to catch and log errors.
+- Added error responses for invalid routes and server errors.
+
+### Updated README
+- Added this section to document the progress made in Milestone 3.
