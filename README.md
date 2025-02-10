@@ -124,3 +124,67 @@ By the end of this milestone, you will:
 
 
 
+# Milestone 5: Frontend UI for User Registration and Form Validation 🎯
+
+## Learning Goals 🎯
+By the end of this milestone, you will:
+
+1. **Create the Frontend UI for User Registration**: Design a user-friendly sign-up page where users can enter their details to create an account.
+2. **Ensure Proper Form Validation**: Implement validation to ensure that user inputs (like email and password) are correct and meet the necessary criteria before submission.
+3. **Update the README File**: Document your progress and what you have accomplished in this milestone.
+
+---
+
+## What’s a Sign-Up Page? 💻
+
+The **Sign-Up page** is a crucial part of any web application where users can enter their details to create an account. It typically includes fields like:
+
+- **Name**
+- **Email**
+- **Password**
+
+This page allows users to provide their personal information, which will then be sent to the server for processing. A clean and well-designed sign-up form is essential for a good user experience.
+
+---
+
+## What is Form Validation? ✅
+
+**Form Validation** ensures that the information users provide is correct and in the right format before being submitted to the server. For example:
+
+- **Email Validation**: Ensures the email is in the correct format (e.g., user@example.com).
+- **Password Validation**: Ensures the password meets specific security criteria (e.g., minimum length, mix of letters and numbers).
+
+Form validation prevents errors, improves the overall user experience, and ensures that only clean, valid data is sent to the backend for further processing.
+
+---
+
+## Steps for Milestone 5 📝
+
+In this milestone, you will focus on the **frontend** side of the application with guidance from your mentor. The steps include:
+
+1. **Building the Sign-Up Page**:
+   - Use **HTML** and **CSS** to create a clean and simple sign-up page with the following fields:
+     - Name
+     - Email
+     - Password
+
+2. **Adding Form Validation**:
+   - Implement client-side validation to ensure that:
+     - The email is in the correct format.
+     - The password meets the required length and security criteria.
+     - Proper error messages are shown if the user submits invalid data.
+
+---
+
+## How to Set Up and Run the Project 🚀
+
+1. **Clone the Repository**:
+   - Clone the repository to your local machine to start working on the frontend.
+
+2. **Install Dependencies**:
+   - If there are any frontend dependencies, install them using your preferred package manager (e.g., npm, yarn).
+
+3. **Run the Application**:
+   - Open the project folder in your code editor.
+   - Open the HTML file to view the Sign-Up page in a web browser.
+
