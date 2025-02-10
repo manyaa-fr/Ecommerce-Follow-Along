@@ -61,3 +61,66 @@ In this milestone, we focused on setting up the backend of the e-commerce applic
 
 ### Updated README
 - Added this section to document the progress made in Milestone 3.
+
+# Milestone 4: User Model, Controller, and File Uploads 🚀
+
+## Learning Goals 🎯
+By the end of this milestone, you will:
+1. **Create a User Model**: Design a blueprint for storing user data in the database.
+2. **Create a User Controller**: Manage user data operations (e.g., adding a new user, fetching user information).
+3. **Enable and Configure Multer**: Implement file upload functionality for user-uploaded files (e.g., profile pictures).
+4. **Update the README File**: Document your progress and changes.
+
+---
+
+## Steps Completed ✅
+
+### 1. User Model
+- Created a **User Schema** using Mongoose to define the structure of user data.
+- Included fields such as `name`, `email`, `password`, and `profilePicture`.
+- Added validation rules (e.g., required fields, unique email).
+
+# Milestone 4: User Model, Controller, and File Uploads 🚀
+
+## Learning Goals 🎯
+By the end of this milestone, you will:
+1. **Create a User Model**: Design a blueprint for storing user data in the database.
+2. **Create a User Controller**: Manage user data operations (e.g., adding a new user, fetching user information).
+3. **Enable and Configure Multer**: Implement file upload functionality for user-uploaded files (e.g., profile pictures).
+4. **Update the README File**: Document your progress and changes.
+
+---
+
+## Steps Completed ✅
+
+### 1. User Model
+- Designed a **User Schema** using Mongoose to structure user data in the database.
+- Included key fields such as `name`, `email`, `password`, and `profilePicture`.
+- Applied validation rules to ensure required fields, unique email addresses, and proper data formats.
+- Implemented password hashing to enhance security.
+
+### 2. User Controller
+- Developed functions to manage user-related operations:
+  - **User Registration**: Allows creating new users with proper validation.
+  - **Fetching User Information**: Retrieve details of a user by their ID.
+  - **Updating User Data**: Provides functionality for modifying user information.
+  - **Deleting a User**: Enable user removal from the database.
+
+### 3. Multer Configuration for File Uploads
+- Integrated **Multer** for handling file uploads, specifically for user profile pictures.
+- Configured Multer to save files with a specific storage destination and naming format.
+- Implemented file validation to ensure only image files are accepted, along with size limitations.
+- Linked uploaded files (profile pictures) to users, storing the file paths in the user model.
+
+### 4. Testing and Validation
+- Conducted manual tests using Postman to ensure that all user-related endpoints work as expected.
+- Ensured that file uploads, validation, and error handling are functioning correctly.
+- Validated that profile pictures are properly uploaded and saved in the right format and path.
+
+### 5. Documentation
+- Updated the README to accurately describe the application’s functionality and how to use the API.
+- Detailed the routes for creating, updating, and deleting users, as well as for uploading files.
+- Explained the Multer configuration and how file uploads are handled.
+
+
+
