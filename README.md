@@ -188,3 +188,57 @@ In this milestone, you will focus on the **frontend** side of the application wi
    - Open the project folder in your code editor.
    - Open the HTML file to view the Sign-Up page in a web browser.
 
+# Milestone 6: Encrypting Passwords and Storing User Data Securely 🔐
+
+## Learning Goals 🎯
+By the end of this milestone, you will:
+
+1. **Understand how to encrypt passwords** before saving them in the database.
+2. **Know how to securely store complete user data** in the database, ensuring that sensitive information like passwords remains protected.
+
+---
+
+## Why Encrypting Passwords? 🔑
+
+Encrypting passwords is crucial for protecting user data and ensuring privacy. Here are the key reasons why it’s important:
+
+- **Protect User Data**: Encryption helps safeguard passwords if the database is ever compromised by hackers.
+- **Privacy**: Ensures that user passwords are not visible to anyone, even system administrators.
+- **Compliance**: Follows important security laws and standards like **GDPR** and **PCI-DSS**, which require proper handling of sensitive information.
+- **Prevents Password Theft**: Encrypted passwords cannot be easily stolen, guessed, or used in unauthorized access attempts.
+
+---
+
+## Steps for Milestone 6 📝
+
+In this milestone, you will focus on **encrypting passwords** and **storing user data securely**. Here’s what we’ll cover in the live coding session:
+
+### 1. **Encrypt the Password**
+   - Use **bcrypt** to hash the user’s password during the sign-up process.
+   - Store the **hashed password** in the database, ensuring that the password is never saved in plain text.
+
+### 2. **Store Complete User Data Securely**
+   - Save all the user's data, such as **name**, **email**, etc., in the database.
+   - Ensure that only the **hashed password** is stored while protecting the rest of the user’s sensitive information.
+
+---
+
+## How to Set Up and Run the Project 🚀
+
+1. **Clone the Repository**:
+   - Clone the repository to your local machine to begin working on the backend.
+
+2. **Install Dependencies**:
+   - Install **bcrypt** and any other required dependencies using your package manager (e.g., npm or yarn).
+
+3. **Run the Application**:
+   - Start your server and test the registration process to ensure that passwords are encrypted before they’re saved.
+
+---
+
+## Future Improvements 🔮
+
+- Implement password verification when users log in, using bcrypt to compare the hashed password.
+- Integrate token-based authentication (e.g., JWT) to provide secure user login and access control.
+- Add additional data validation and security measures for storing user data.
+
