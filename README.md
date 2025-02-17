@@ -1,9 +1,11 @@
 # Ecommerce-Follow-Along
 
-## Milestone 1: 
+# Milestone 1: 
 Initialized README.md
 
-## Milestone 2:
+-- 
+
+# Milestone 2:
 
 This milestone focuses on setting up the project structure, building the frontend with React, configuring styling with Tailwind CSS, and developing the login page.
 
@@ -33,7 +35,9 @@ Tailwind CSS was integrated into the project for styling.  Tailwind CSS makes it
 ### Login Page Development
 The first user interface component, the login page, was developed. This page allows users to enter their credentials to access the application.  The login page was styled using Tailwind CSS.
 
-## Milestone 3: Project Setup for Backend
+--
+
+# Milestone 3: Project Setup for Backend
 
 In this milestone, we focused on setting up the backend of the e-commerce application. Here's what was achieved:
 
@@ -80,6 +84,8 @@ By the end of this milestone, you will:
 - Included fields such as `name`, `email`, `password`, and `profilePicture`.
 - Added validation rules (e.g., required fields, unique email).
 
+--
+
 # Milestone 4: User Model, Controller, and File Uploads 🚀
 
 ## Learning Goals 🎯
@@ -122,7 +128,7 @@ By the end of this milestone, you will:
 - Detailed the routes for creating, updating, and deleting users, as well as for uploading files.
 - Explained the Multer configuration and how file uploads are handled.
 
-
+--
 
 # Milestone 5: Frontend UI for User Registration and Form Validation 🎯
 
@@ -188,6 +194,8 @@ In this milestone, you will focus on the **frontend** side of the application wi
    - Open the project folder in your code editor.
    - Open the HTML file to view the Sign-Up page in a web browser.
 
+--
+
 # Milestone 6: Encrypting Passwords and Storing User Data Securely 🔐
 
 ## Learning Goals 🎯
@@ -242,6 +250,8 @@ In this milestone, you will focus on **encrypting passwords** and **storing user
 - Integrate token-based authentication (e.g., JWT) to provide secure user login and access control.
 - Add additional data validation and security measures for storing user data.
 
+--
+
 # Milestone 7: User Login Backend 🚀  
 
  *Learning Goals*  
@@ -265,6 +275,8 @@ In this milestone, you will focus on **encrypting passwords** and **storing user
 3. *Verify Password* → Hash input & compare with stored hash.  
 
  *Note:* Passwords are hashed (not decrypted). We compare hashes for authentication.
+
+--
 
  # Milestone 8: Product Card Component and Homepage Layout
 
@@ -290,3 +302,21 @@ By the end of this milestone, I have learned:
 ### ✨ **Key Features:**
 - **Dynamic Product Cards**: Each product is passed as a prop, ensuring the design is reusable for any product.
 - **Grid/Flexbox Layout**: Used CSS grid or flexbox for a clean, organized display of product cards on the homepage.
+
+--
+
+# Milestone 9: Product Input Form
+
+### Overview
+In this milestone, we created a frontend form that allows users to input product details, including multiple images. This form will help collect data that will be stored in the database and displayed on the product homepage from the previous milestone.
+
+### Learning Outcomes
+- Built a product input form.
+- Enabled multiple image uploads for products.
+- Gained experience with frontend form validation and handling file inputs.
+
+### Implementation Steps
+1. Designed a form with fields for product details like name, price, description, and category.
+2. Implemented multiple image upload functionality.
+3. Ensured validation for required fields.
+4. Pushed all changes to the GitHub repository.
