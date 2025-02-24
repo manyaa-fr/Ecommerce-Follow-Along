@@ -374,3 +374,20 @@ In this milestone, we implemented a **My Products** page that displays all the p
 2. **Frontend:** Implemented a function to fetch products using the logged-in user's email.
 3. **UI Update:** Passed the filtered product data dynamically to the product card component for display.
 
+--
+
+# Milestone 13 - Edit Products Functionality
+
+## Overview
+In this milestone, we implemented a feature to **edit uploaded products**. This involved creating an endpoint to update product details in MongoDB and enhancing the frontend to allow users to edit product information dynamically.
+
+## Learning Goals 🎯
+- Write an endpoint to update existing product data in MongoDB.
+- Auto-fill the form with previous product details and allow users to modify them.
+
+## Implementation Steps 📝
+1. **Backend:** Created a new API endpoint (`PUT /products/:id`) to update product details in MongoDB.
+2. **Frontend:**
+   - Added an **Edit** button to the product card.
+   - Clicking the edit button fills the form with existing product data.
+   - Provided an option to update and save the changes.
