@@ -358,4 +358,19 @@ In this milestone, we implemented a dynamic home page that displays all the prod
 2. **Frontend:** Implemented a function to fetch product data from the backend.
 3. **UI Update:** Passed retrieved data dynamically to the product card component for display.
 
+--
+
+# Milestone 12 - My Products Page
+
+## Overview
+In this milestone, we implemented a **My Products** page that displays all the products added by the logged-in user. This involved creating an endpoint to fetch products based on the user's email and dynamically rendering them on the frontend using the product card component.
+
+## Learning Goals 🎯
+- Write an endpoint to filter and send product data based on the logged-in user's email.
+- Fetch and display filtered data dynamically using React components.
+
+## Implementation Steps 📝
+1. **Backend:** Created a new API endpoint (`GET /my-products?email=user@example.com`) to retrieve products associated with the given email.
+2. **Frontend:** Implemented a function to fetch products using the logged-in user's email.
+3. **UI Update:** Passed the filtered product data dynamically to the product card component for display.
 
