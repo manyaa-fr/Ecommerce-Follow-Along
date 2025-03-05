@@ -419,3 +419,17 @@ By completing this milestone, we learned:
 **Method:** DELETE  
 **Endpoint:** `/api/products/:id`  
 **Description:** Deletes a product from the database using the provided ID.
+
+--
+
+# Milestone 15: Navbar Component  
+
+### What was achieved in this milestone  
+
+- Created a reusable `Nav` component with navigation links to all pages:  
+  - Home  
+  - My Products  
+  - Add Product  
+  - Cart  
+- Ensured the Navbar is responsive to all screen sizes.  
+- Integrated the Navbar component into all pages for seamless navigation.  
