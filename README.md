@@ -433,3 +433,13 @@ By completing this milestone, we learned:
   - Cart  
 - Ensured the Navbar is responsive to all screen sizes.  
 - Integrated the Navbar component into all pages for seamless navigation.  
+
+--
+
+# Milestone 16: Product Info Page  
+
+### What was achieved in this milestone  
+
+- Created a new **Product Info** page to display detailed product data.  
+- Added an option to choose the quantity of the product.  
+- Implemented an **"Add to Cart"** button for easy product addition.  
