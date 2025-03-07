@@ -464,3 +464,17 @@ In this milestone, we implemented the backend functionality to add products to a
 
 --
 
+# Milestone 18 - Fetch Cart Products
+
+## Overview
+In this milestone, we implemented the backend functionality to fetch all products inside a user's cart and display them on the cart page.
+
+## Learning Goals 🎯
+- Created an endpoint to receive requests from the cart page.
+- Implemented a backend endpoint to fetch all products inside the cart using the user's email.
+
+## Steps Completed 📝
+1. **Created Backend Endpoint**: Implemented an API endpoint to retrieve cart products.
+2. **Integrated User Authentication**: Ensured that only authenticated users can access their cart details.
+3. **Fetched Cart Data**: Retrieved products stored in the cart based on the user's email.
+4. **Tested Functionality**: Verified the API response using Postman to ensure correct retrieval of cart items.
