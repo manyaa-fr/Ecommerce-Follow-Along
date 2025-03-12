@@ -478,3 +478,19 @@ In this milestone, we implemented the backend functionality to fetch all product
 2. **Integrated User Authentication**: Ensured that only authenticated users can access their cart details.
 3. **Fetched Cart Data**: Retrieved products stored in the cart based on the user's email.
 4. **Tested Functionality**: Verified the API response using Postman to ensure correct retrieval of cart items.
+
+--
+
+# Milestone 19: Cart Page and Quantity Update API
+
+## Overview
+In this milestone, I implemented the cart functionality, allowing users to view products in their cart and adjust quantities using + and - buttons. I also created backend endpoints to handle quantity updates.
+
+## Features Implemented
+- **Cart Page UI**: Displays products added to the cart.
+- **Quantity Adjustment**: Each product has `+` and `-` buttons to increase or decrease quantity.
+- **Backend Endpoints**:
+  - `POST /cart/increase/:productId`: Increases the quantity of a product.
+  - `POST /cart/decrease/:productId`: Decreases the quantity of a product.
+
+  
