@@ -493,4 +493,23 @@ In this milestone, I implemented the cart functionality, allowing users to view 
   - `POST /cart/increase/:productId`: Increases the quantity of a product.
   - `POST /cart/decrease/:productId`: Decreases the quantity of a product.
 
-  
+  --
+
+  # Milestone 20: Profile Page and User Data API
+
+## Overview  
+In this milestone, I implemented a profile page where users can view their details, including their profile photo, name, email, and addresses. Additionally, I created a backend endpoint to fetch user data.  
+
+## Features Implemented  
+
+### Backend  
+- **User Data API**:  
+  - Endpoint: `GET /user/profile`  
+  - Sends user details, including name, email, profile photo URL, and addresses.  
+
+### Frontend  
+- **Profile Page UI**:  
+  - Displays the user's profile photo, name, and email in one section.  
+  - Shows the user’s saved addresses in another section.  
+  - Includes an "Add Address" button.  
+  - Displays "No address found" if the user has no saved addresses.  
