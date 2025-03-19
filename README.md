@@ -513,3 +513,21 @@ In this milestone, I implemented a profile page where users can view their detai
   - Shows the user’s saved addresses in another section.  
   - Includes an "Add Address" button.  
   - Displays "No address found" if the user has no saved addresses.  
+
+  --
+
+  # Milestone 21 - Address Input Form
+
+## Overview
+In this milestone, I created a frontend page for address input. The form allows users to enter their address details, including country, city, address lines, zip code, and address type.
+
+## Features
+✅ Address input form with fields:
+   - Country  
+   - City  
+   - Address Line 1  
+   - Address Line 2  
+   - Zip Code  
+   - Address Type (e.g., Home, Work)  
+✅ State management to store input values  
+✅ Navigation from the profile page to the address form  
