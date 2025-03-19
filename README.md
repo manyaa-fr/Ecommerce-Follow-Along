@@ -531,3 +531,15 @@ In this milestone, I created a frontend page for address input. The form allows 
    - Address Type (e.g., Home, Work)  
 ✅ State management to store input values  
 ✅ Navigation from the profile page to the address form  
+
+--
+
+# Milestone 22 - Save Address in User Profile
+
+## Overview
+In this milestone, I created a backend endpoint to save the address inside the user profile in the database. The endpoint receives the address from the frontend and updates the user collection.
+
+## Features
+✅ Backend endpoint to store user address  
+✅ Adds the address to the address array inside the user collection  
+✅ Connects with the frontend form to receive user input  
