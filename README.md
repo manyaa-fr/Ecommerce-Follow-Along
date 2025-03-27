@@ -543,3 +543,22 @@ In this milestone, I created a backend endpoint to save the address inside the u
 ✅ Backend endpoint to store user address  
 ✅ Adds the address to the address array inside the user collection  
 ✅ Connects with the frontend form to receive user input  
+
+--
+
+# 🛍️ Milestone 23  
+
+## 📌 Milestone Overview  
+In this milestone, we have implemented the **Place Order** functionality in our React app. This includes:  
+- Adding a **"Place Order"** button in the cart page.  
+- Creating a **Select Address** page where users can view and choose a delivery address.  
+- Setting up a **backend endpoint** to fetch user addresses.  
+- Writing the **Mongoose schema** for storing order details in the database.  
+
+---
+
+## 🏗️ Features Implemented  
+✅ **Cart Page Update:** Added a "Place Order" button that redirects to the Select Address page.  
+✅ **Select Address Page:** Displays all saved addresses with an option to select one.  
+✅ **Backend API:** Created an endpoint to fetch user addresses.  
+✅ **Order Schema:** Defined a Mongoose schema to store order details.  
