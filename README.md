@@ -63,27 +63,6 @@ In this milestone, we focused on setting up the backend of the e-commerce applic
 - Implemented basic error handling middleware to catch and log errors.
 - Added error responses for invalid routes and server errors.
 
-### Updated README
-- Added this section to document the progress made in Milestone 3.
-
-# Milestone 4: User Model, Controller, and File Uploads 🚀
-
-## Learning Goals 🎯
-By the end of this milestone, you will:
-1. **Create a User Model**: Design a blueprint for storing user data in the database.
-2. **Create a User Controller**: Manage user data operations (e.g., adding a new user, fetching user information).
-3. **Enable and Configure Multer**: Implement file upload functionality for user-uploaded files (e.g., profile pictures).
-4. **Update the README File**: Document your progress and changes.
-
----
-
-## Steps Completed ✅
-
-### 1. User Model
-- Created a **User Schema** using Mongoose to define the structure of user data.
-- Included fields such as `name`, `email`, `password`, and `profilePicture`.
-- Added validation rules (e.g., required fields, unique email).
-
 --
 
 # Milestone 4: User Model, Controller, and File Uploads 🚀
@@ -562,3 +541,19 @@ In this milestone, we have implemented the **Place Order** functionality in our 
 ✅ **Select Address Page:** Displays all saved addresses with an option to select one.  
 ✅ **Backend API:** Created an endpoint to fetch user addresses.  
 ✅ **Order Schema:** Defined a Mongoose schema to store order details.  
+
+--
+
+# Milestone 24: Order Confirmation Page  
+
+## Overview  
+In this milestone, I implemented an Order Confirmation page that displays:  
+- The list of products being ordered  
+- The selected delivery address  
+- The total cart value  
+- A "Place Order" button to proceed with the order  
+
+## Key Features  
+- Dynamically renders ordered products and user-selected address  
+- Calculates and displays total price  
+- Includes a functional "Place Order" button  
