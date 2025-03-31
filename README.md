@@ -557,3 +557,21 @@ In this milestone, I implemented an Order Confirmation page that displays:
 - Dynamically renders ordered products and user-selected address  
 - Calculates and displays total price  
 - Includes a functional "Place Order" button  
+
+--
+
+# Milestone 25: Implementing 'Place Order' Endpoint
+
+## Learning Goals 🎯
+By completing this milestone, we:
+- Created a backend endpoint for placing an order.
+- Retrieved the user ID using their email.
+- Stored order details in MongoDB using the `Order` schema.
+
+---
+
+## Steps Implemented 📝
+1. **Created an Express route** to handle order placement.
+2. **Extracted user email** from the request and fetched the `_id` from the database.
+3. **Iterated over products** to create separate orders for each product with the same address.
+4. **Stored order details** in the MongoDB `orders` collection.
