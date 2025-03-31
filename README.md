@@ -575,3 +575,22 @@ By completing this milestone, we:
 2. **Extracted user email** from the request and fetched the `_id` from the database.
 3. **Iterated over products** to create separate orders for each product with the same address.
 4. **Stored order details** in the MongoDB `orders` collection.
+
+--
+
+# Milestone 26: Fetching User Orders Endpoint
+
+## Learning Goals 🎯
+By completing this milestone, we:
+- Created a backend endpoint to retrieve all orders of a specific user.
+- Retrieved the user ID using their email.
+- Queried the MongoDB `orders` collection to fetch the user's orders.
+- Sent all retrieved orders in the response.
+
+---
+
+## Steps Implemented 📝
+1. **Created an Express route** to fetch user orders.
+2. **Extracted user email** from the request and fetched the `_id` from the database.
+3. **Queried MongoDB** using the `_id` to get all orders of that user.
+4. **Sent all retrieved orders** in the response.
