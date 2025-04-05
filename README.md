@@ -594,3 +594,17 @@ By completing this milestone, we:
 2. **Extracted user email** from the request and fetched the `_id` from the database.
 3. **Queried MongoDB** using the `_id` to get all orders of that user.
 4. **Sent all retrieved orders** in the response.
+
+--
+
+# Milestone 27 - My Orders Page 🛍️
+
+In this milestone, I created a new frontend page named **`my-orders`**, which allows users to view all their orders.
+
+#### ✅ What was achieved:
+- Developed the `my-orders` page to display all orders related to a logged-in user.
+- Integrated a **GET request** to the `my-orders` endpoint (created in a previous milestone).
+- Fetched orders using the user's email as a query parameter.
+- Rendered all user orders dynamically on the page.
+- Updated the **navigation bar** to include a link to the `my-orders` page for easy access.
+- Ensured responsive UI and smooth UX for checking user order history.
