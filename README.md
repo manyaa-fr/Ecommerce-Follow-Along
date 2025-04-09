@@ -608,3 +608,22 @@ In this milestone, I created a new frontend page named **`my-orders`**, which al
 - Rendered all user orders dynamically on the page.
 - Updated the **navigation bar** to include a link to the `my-orders` page for easy access.
 - Ensured responsive UI and smooth UX for checking user order history.
+
+--
+
+# My Orders – Cancel Order Feature (Milestone 28)
+
+## ✅ Milestone Overview
+In this milestone, we implemented the ability for users to **cancel their placed orders** from the **My Orders** page. This includes both frontend and backend changes.
+
+---
+
+## 🔧 Features Implemented
+
+### Frontend
+- Added **"Cancel Order"** button next to each order on the **My Orders** page.
+- The **cancel button is hidden** if the order is already canceled.
+
+### Backend
+- Created a new **API endpoint** to handle order cancellation.
+- The endpoint receives the `orderId`, finds the corresponding order in the database, updates its `status` to `"canceled"`, and saves it.
