@@ -627,3 +627,32 @@ In this milestone, we implemented the ability for users to **cancel their placed
 ### Backend
 - Created a new **API endpoint** to handle order cancellation.
 - The endpoint receives the `orderId`, finds the corresponding order in the database, updates its `status` to `"canceled"`, and saves it.
+
+--
+
+# Milestone 29 – PayPal Integration (Step 1)
+
+## ✅ Milestone Overview
+In this milestone, we began integrating an **online payment gateway** using the **PayPal API**. This sets up the foundation for enabling both **Cash on Delivery (COD)** and **Online Payment** options for users.
+
+---
+
+## 🔧 Features Implemented
+
+### PayPal Setup
+- Created a **PayPal Developer Account**.
+- Accessed the **Sandbox Environment**.
+- Created a **Sandbox Business Account** and saved the **Client ID** for testing purposes.
+
+### Frontend
+- Added **radio buttons** on the **Order Confirmation Page** to let users choose between:
+  - 🏠 Cash on Delivery (COD)
+  - 💳 Online Payment (PayPal)
+- When **Online Payment** is selected, a placeholder is shown where the PayPal buttons will appear (to be handled in the next milestone).
+
+---
+
+## 📁 File Changes
+- `client/src/pages/OrderConfirmation.jsx`
+  - Added COD / Online Payment selection using radio buttons.
+  - Conditional rendering area prepared for PayPal Buttons.
