@@ -670,3 +670,19 @@ This milestone focuses on integrating an **online payment system** using the **P
 - Use the PayPal API for secure online transactions.
 - Integrate PayPal in a React project using `@paypal/react-paypal-js`.
 - Understand how to configure sandbox credentials and render payment options.
+
+
+--
+
+# 🚀 Milestone 31 – Redux Global State Management
+
+In this milestone, we learned how to implement **global state management** in a React application using **Redux**. We specifically set up a global store to manage the user's email address.
+
+---
+
+## 📚 Learning Goals
+
+- Understand how to use **Redux** for global state.
+- Set up a centralized **Redux store** using `react-redux`.
+- Store and manage **user email** as global state.
+- Prepare to access and update this state across components.
