@@ -656,3 +656,17 @@ In this milestone, we began integrating an **online payment gateway** using the 
 - `client/src/pages/OrderConfirmation.jsx`
   - Added COD / Online Payment selection using radio buttons.
   - Conditional rendering area prepared for PayPal Buttons.
+
+--
+
+# 🚀 Milestone 30 – PayPal Payment Integration
+
+This milestone focuses on integrating an **online payment system** using the **PayPal API** in a ReactJS application. 💳
+
+---
+
+## 📚 Learning Goals
+
+- Use the PayPal API for secure online transactions.
+- Integrate PayPal in a React project using `@paypal/react-paypal-js`.
+- Understand how to configure sandbox credentials and render payment options.
