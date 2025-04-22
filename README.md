@@ -686,3 +686,16 @@ In this milestone, we learned how to implement **global state management** in a 
 - Set up a centralized **Redux store** using `react-redux`.
 - Store and manage **user email** as global state.
 - Prepare to access and update this state across components.
+
+--
+
+# 📌 Milestone 32 - Global State with Redux
+
+## ✅ What's Covered
+In this milestone, we integrated **Redux** to manage the global state of the application by storing the **user's email** after login and accessing it throughout the app.
+
+## 📚 Learning Goals
+- Use Redux for global state management.
+- Store user email in Redux after login.
+- Access stored email across all pages using `useSelector`.
+
