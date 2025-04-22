@@ -699,3 +699,14 @@ In this milestone, we integrated **Redux** to manage the global state of the app
 - Store user email in Redux after login.
 - Access stored email across all pages using `useSelector`.
 
+--
+
+# 📌 Milestone 33 - Creating and Storing JWT in Cookie
+
+## ✅ What's Covered
+In this milestone, we learned how to create a **JWT token** and store it inside a **browser cookie** for secure session management.
+
+## 📚 Learning Goals
+- Create a JWT token using the `jsonwebtoken` package.
+- Store JWT securely in a cookie.
+- Understand setting expiration time using `maxAge`.
