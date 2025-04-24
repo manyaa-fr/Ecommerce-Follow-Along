@@ -726,3 +726,32 @@ Implement JWT validation using cookies to protect authenticated routes across th
 - Sent the token to the backend automatically via cookies.
 - Created middleware in the backend to validate the JWT.
 - Protected private routes using this middleware to ensure only logged-in users can access them.
+
+
+--
+
+# Kalvium Milestone 35 – Full Stack Deployment
+
+## Project Overview
+
+In this milestone, the goal was to deploy both the backend and frontend of the project and ensure they are integrated using token-based authentication with cookies.
+
+---
+
+## Learning Goals
+
+- Deploy the backend to a cloud service like Render or Railway  
+- Replace all localhost links in the frontend with the deployed backend URL  
+- Deploy the frontend to a platform like Vercel or Netlify  
+- Handle user authentication using tokens stored in cookies  
+- Ensure the complete app is live and fully functional  
+
+---
+
+## Steps Followed
+
+1. The backend was pushed to GitHub and deployed using a service like Render. Environment variables like Mongo URI and JWT secret were set during deployment. CORS and cookie-parser middleware were also configured properly to handle cross-origin requests and cookies.
+
+2. The frontend was updated to use the deployed backend URL instead of localhost. Axios was set up to include credentials so that cookies would be sent with each request. The frontend was then deployed to Vercel.
+
+3. On successful login or signup, the backend sent a token as a cookie. This token is automatically included in subsequent frontend requests, enabling secure user sessions.
