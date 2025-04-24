@@ -710,3 +710,19 @@ In this milestone, we learned how to create a **JWT token** and store it inside 
 - Create a JWT token using the `jsonwebtoken` package.
 - Store JWT securely in a cookie.
 - Understand setting expiration time using `maxAge`.
+
+--
+
+## 🚀 Milestone 34: Saving the Token and Setting It in the Cookie (v2)
+
+### 🎯 Objective
+Implement JWT validation using cookies to protect authenticated routes across the app.
+
+---
+
+### ✅ What I Did
+
+- Extracted JWT token from cookies on the client side.
+- Sent the token to the backend automatically via cookies.
+- Created middleware in the backend to validate the JWT.
+- Protected private routes using this middleware to ensure only logged-in users can access them.
